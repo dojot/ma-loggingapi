@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="loggingapi">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
+        <dependent-module archiveName="LoggingAPI-jar-1.1.0-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/LoggingAPI-jar/LoggingAPI-jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Communication-lib-1.1.0-SNAPSHOT.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/br/com/cpqd/mutualauthentication/communication/Communication-lib/1.1.0-SNAPSHOT/Communication-lib-1.1.0-SNAPSHOT.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="LoggingAPI-ws-1.1.0-SNAPSHOT.war" deploy-path="/" handle="module:/resource/LoggingAPI-ws/LoggingAPI-ws">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="LoggingAPI-ejb-1.1.0-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/LoggingAPI-ejb/LoggingAPI-ejb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="json-20151123.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/json/json/20151123/json-20151123.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kafka_2.11-0.10.0.1.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/apache/kafka/kafka_2.11/0.10.0.1/kafka_2.11-0.10.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="zkclient-0.8.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/101tec/zkclient/0.8/zkclient-0.8.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.2.15.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/log4j/log4j/1.2.15/log4j-1.2.15.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mail-1.4.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/javax/mail/mail/1.4/mail-1.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activation-1.1.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/javax/activation/activation/1.1/activation-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-log4j12-1.7.21.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-log4j12/1.7.21/slf4j-log4j12-1.7.21.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="metrics-core-2.2.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="scala-library-2.11.8.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="scala-parser-combinators_2.11-1.0.4.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jopt-simple-4.9.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="zookeeper-3.4.6.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jline-0.9.94.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/jline/jline/0.9.94/jline-0.9.94.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="junit-3.8.1.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kafka-clients-0.10.0.1.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/apache/kafka/kafka-clients/0.10.0.1/kafka-clients-0.10.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="lz4-1.3.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="snappy-java-1.1.2.6.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cassandra-driver-core-3.0.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/datastax/cassandra/cassandra-driver-core/3.0.2/cassandra-driver-core-3.0.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="netty-handler-4.0.33.Final.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/io/netty/netty-handler/4.0.33.Final/netty-handler-4.0.33.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="guava-16.0.1.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/google/guava/guava/16.0.1/guava-16.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="metrics-core-3.1.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jedis-2.9.0-cpqd.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/br/com/cpqd/redis/clients/jedis/2.9.0-cpqd/jedis-2.9.0-cpqd.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-pool2-2.4.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rest-5.2.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/elasticsearch/client/rest/5.2.0/rest-5.2.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpcore-4.4.5.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/apache/httpcomponents/httpcore/4.4.5/httpcore-4.4.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpasyncclient-4.1.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/apache/httpcomponents/httpasyncclient/4.1.2/httpasyncclient-4.1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpcore-nio-4.4.5.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/apache/httpcomponents/httpcore-nio/4.4.5/httpcore-nio-4.4.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-codec-1.10.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/commons-codec/commons-codec/1.10/commons-codec-1.10.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sniffer-5.2.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/elasticsearch/client/sniffer/5.2.0/sniffer-5.2.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-core-2.8.6.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/core/jackson-core/2.8.6/jackson-core-2.8.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpclient-4.5.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="redisson-3.4.1.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/redisson/redisson/3.4.1/redisson-3.4.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="netty-common-4.1.8.Final.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/io/netty/netty-common/4.1.8.Final/netty-common-4.1.8.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="netty-codec-4.1.8.Final.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/io/netty/netty-codec/4.1.8.Final/netty-codec-4.1.8.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="netty-buffer-4.1.8.Final.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/io/netty/netty-buffer/4.1.8.Final/netty-buffer-4.1.8.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="netty-transport-4.1.8.Final.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/io/netty/netty-transport/4.1.8.Final/netty-transport-4.1.8.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="netty-resolver-4.1.8.Final.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/io/netty/netty-resolver/4.1.8.Final/netty-resolver-4.1.8.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cache-api-1.0.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="reactor-stream-2.0.8.RELEASE.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/io/projectreactor/reactor-stream/2.0.8.RELEASE/reactor-stream-2.0.8.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="reactor-core-2.0.8.RELEASE.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/io/projectreactor/reactor-core/2.0.8.RELEASE/reactor-core-2.0.8.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="reactive-streams-1.0.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.7.21.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-dataformat-yaml-2.6.7.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.6.7/jackson-dataformat-yaml-2.6.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="snakeyaml-1.15.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Registry-1.1.0-SNAPSHOT.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/br/com/cpqd/mutualauthentication/registry/Registry/1.1.0-SNAPSHOT/Registry-1.1.0-SNAPSHOT.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-databind-2.6.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.6.3/jackson-databind-2.6.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-annotations-2.6.0.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-lang3-3.6.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
