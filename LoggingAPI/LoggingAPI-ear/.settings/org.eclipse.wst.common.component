@@ -5,7 +5,7 @@
         <dependent-module archiveName="LoggingAPI-jar-1.1.0-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/LoggingAPI-jar/LoggingAPI-jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="Communication-lib-1.1.0-SNAPSHOT.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/br/com/cpqd/mutualauthentication/communication/Communication-lib/1.1.0-SNAPSHOT/Communication-lib-1.1.0-SNAPSHOT.jar">
+        <dependent-module archiveName="Communication-lib-1.1.0-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/Communication-lib/Communication-lib">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="LoggingAPI-ws-1.1.0-SNAPSHOT.war" deploy-path="/" handle="module:/resource/LoggingAPI-ws/LoggingAPI-ws">
@@ -77,7 +77,7 @@
         <dependent-module archiveName="metrics-core-3.1.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="jedis-2.9.0-cpqd.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/br/com/cpqd/redis/clients/jedis/2.9.0-cpqd/jedis-2.9.0-cpqd.jar">
+        <dependent-module archiveName="jedis-2.9.0-dojot.jar" deploy-path="/" handle="module:/resource/jedis/jedis">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="commons-pool2-2.4.2.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar">
@@ -149,7 +149,7 @@
         <dependent-module archiveName="snakeyaml-1.15.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="Registry-1.1.0-SNAPSHOT.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/br/com/cpqd/mutualauthentication/registry/Registry/1.1.0-SNAPSHOT/Registry-1.1.0-SNAPSHOT.jar">
+        <dependent-module archiveName="Registry-1.1.0-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/Registry/Registry">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="jackson-databind-2.6.3.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.6.3/jackson-databind-2.6.3.jar">

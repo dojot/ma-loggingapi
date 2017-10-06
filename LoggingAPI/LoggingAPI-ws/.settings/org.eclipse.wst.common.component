@@ -4,6 +4,15 @@
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="jedis-2.9.0-dojot.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/jedis/jedis">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Registry-1.1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Registry/Registry">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Communication-lib-1.1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Communication-lib/Communication-lib">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="loggingapi-ws"/>
         <property name="java-output-path" value="/LoggingAPI-ws/target/classes"/>
         <property name="component.exclusion.patterns" value="WEB-INF/lib/LoggingAPI**"/>
