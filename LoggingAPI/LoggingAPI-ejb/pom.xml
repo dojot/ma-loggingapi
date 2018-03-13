@@ -58,12 +58,6 @@
 			<version>4.0.26.Final</version>
 			<scope>provided</scope>
 		</dependency>
-		<!-- Apache Cassandra -->
-		<dependency>
-			<groupId>com.datastax.cassandra</groupId>
-			<artifactId>cassandra-driver-core</artifactId>
-			<version>3.0.2</version>
-		</dependency>
 		<!-- Redis -->
 		<dependency>
 			<groupId>redis.clients</groupId>
